@@ -81,7 +81,7 @@ const BouncingBall = () => {
     height: `${FIELD_HEIGHT}px`,
     margin: '10px',
     borderRadius: '10px',
-    backgroundImage: "url('src/assets/wood.jpg')", // แก้ path ตรงนี้
+    backgroundImage: "url('./src/assets/wood.jpg')", // แก้ path ตรงนี้
     backgroundPosition: 'center',
     backgroundSize: '100%',
     position: 'relative'
@@ -105,12 +105,12 @@ const BouncingBall = () => {
       case 'basketball':
         return {
           ...baseStyle,
-          backgroundImage: "url('src/assets/basketbal.png')"
+          backgroundImage: "url('./src/assets/basketbal.png')"
         };
       case 'football':
         return {
           ...baseStyle,
-          backgroundImage: "url('src/assets/football.png')"
+          backgroundImage: "url('./src/assets/football.png')"
         };
       default:
         return {

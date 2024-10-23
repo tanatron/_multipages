@@ -6,7 +6,7 @@ function Home() {
         <div className='Home-container'>
             <div className='card-container'> 
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="src/assets/IMG_9245.jpg" />
+                <Card.Img variant="top" src="./src/assets/IMG_9245.jpg" />
                 <Card.Body>
                     <Card.Title>
                         <span className='bi bi-person-circle'>&nbsp;Kannisa Intra</span>
