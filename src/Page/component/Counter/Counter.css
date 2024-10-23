@@ -1,0 +1,29 @@
+
+.main-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+.info-container{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.title{
+    color: darkblue;
+    margin-top: 10px;
+}
+
+.Counter-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}

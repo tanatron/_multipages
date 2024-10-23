@@ -1,0 +1,59 @@
+
+.title-name{
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width:800px;
+    margin-top: 10px;
+    background-color: orangered;
+    
+}
+.info-4-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.O-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-top{
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: orangered;
+}
+
+.T-container{
+    display: flex;
+    justify-content: center;
+}
+
+.K-container{
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.in-3-container{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.main-info-container{
+    display: flex
+    
+    
+}
+
+
+
+
+
