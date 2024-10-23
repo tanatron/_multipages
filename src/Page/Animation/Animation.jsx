@@ -81,7 +81,7 @@ const BouncingBall = () => {
     height: `${FIELD_HEIGHT}px`,
     margin: '10px',
     borderRadius: '10px',
-    backgroundImage: "url('./src/assets/wood.jpg')", // แก้ path ตรงนี้
+    backgroundImage: "url('https://cdn.discordapp.com/attachments/883701887424147536/1298671826536497255/wood.jpg?ex=671a69e3&is=67191863&hm=b48856135c0344ddeae04ca9c0a4828751aead357680fdaac45223ddd3f0686a&')", // แก้ path ตรงนี้
     backgroundPosition: 'center',
     backgroundSize: '100%',
     position: 'relative'
@@ -105,12 +105,12 @@ const BouncingBall = () => {
       case 'basketball':
         return {
           ...baseStyle,
-          backgroundImage: "url('./src/assets/basketbal.png')"
+          backgroundImage: "url('https://cdn.discordapp.com/attachments/883701887424147536/1298671827954176121/basketbal.png?ex=671a69e3&is=67191863&hm=5d3d9c7fe9a6cba1da9002070ff840e4208f4e5113cf23428ddaa237a542b9c1&')"
         };
       case 'football':
         return {
           ...baseStyle,
-          backgroundImage: "url('./src/assets/football.png')"
+          backgroundImage: "url('https://cdn.discordapp.com/attachments/883701887424147536/1298671828541112420/football.png?ex=671a69e4&is=67191864&hm=d33e5af3c18de0d4ecdf71bc6ed7d3a7fc53cef2be2c24aafd4ae081ad4be332&')"
         };
       default:
         return {
